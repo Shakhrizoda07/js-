@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+.dark-mode {
+    background-color: #181818;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+h2 {
+    text-align: center;
+}
+input {
+    width: 300px;
+    height: 38px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+button {
+    width: 100px;
+    height: 38px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+#theme-toggle {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+#tasks {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+.task {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.task:hover {
+    background-color: gray;
+    color: white;
+}
